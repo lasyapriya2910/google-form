@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(235, 221, 234);
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form{
+    height: 1100px;
+    width: 600px;
+    margin:0;
+}
+.required{
+    font-size: 20px;
+    color: red;
+}
+.title-div{
+    height:150px;
+    width: 550px;
+    background-color: #fdfefe;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #6703c4;
+    padding: 25px;
+}
+.name-div, .college-div, .gmail-div, .mobile-div, .gen-div, .course-div{
+    height:150px;
+    width: 600px;
+    background-color: #fdfefe;
+    margin:15px;
+    border-radius: 8px;
+}
+.name, .college, .email, .mobile, .gender, .course{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.input-div input{
+    width:300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+}
+.gen, .cou{
+    padding-left: 25px;
+}
+.btn{
+    height: 36px;
+    width:100px;
+    background-color: #6703c4;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    letter-spacing: .5px;
+    font-weight: 540;
+    border:none;
+    padding: 10px;
+}
+.last-div h2{
+    text-align: center;
+    margin-right: 300px;
+    padding-top: 50px;
+    color: #a2a4a6;
+    font-weight: 200;
+    font-size:40px;
+}
+.term{
+    font-size: 12px;
+    padding-left: 65px;
+    padding-top: 5px;
+    position: absolute;
+}
+.never{
+    padding-left: 15px;
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: 400;
+}
